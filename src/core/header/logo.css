@@ -1,0 +1,73 @@
+img{
+    width: 190px;
+    padding: 5px;
+    margin-top: -3px;
+    padding-left: -5px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pages{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#pages div{
+    border: 2px solid #eae517;
+    border-radius: 5px;
+    padding: 2px;
+    height: fit-content;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#pages div#reg{
+    margin-right: 10px;
+}
+/* #pages div#log{
+    border: 2px solid #eae517;
+    border-radius: 5px;
+} */
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+input.abs{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px 5px 6px 9px;
+    transition: 0.5;
+}
+input.abs:focus{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px 5px 6px 9px;
+    height: 60px;
+    transition: 0.5;
+    width: 200px;
+    padding-right: 50px;
+}
+button[type="submit"]{
+    position: absolute;
+    top: 66px;
+    right: 30px;
+    transition: 0.5;
+}
+input.abs:focus ~ button[type="submit"]{
+    position: absolute;
+    top: 85px;
+    right: 30px;
+    transition: 0.5;
+}
