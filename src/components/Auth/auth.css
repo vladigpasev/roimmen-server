@@ -1,0 +1,48 @@
+#container{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    background: linear-gradient(45deg, rgb(243, 243, 243), rgb(223, 223, 223));
+    width: 230px;
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+}
+
+#container > span > h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#container > span > .error{
+    margin-top: -7px !important;
+    color: red !important;
+    font-weight: bolder;
+}
+
+#container > span > p{
+    margin: 0;
+}
+
+#container > span > input{
+    width: calc(100% + -10px);
+    margin-bottom: 5px;
+}
+
+#container > span > button{
+    margin-top: 5px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: #EFEFEF;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+}
